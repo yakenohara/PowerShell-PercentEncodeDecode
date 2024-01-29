@@ -26,4 +26,4 @@ set ps1FileName=PercentEncDec.ps1
 set ps1FileFullPath=%~dp0%ps1FileName%
 
 ::Call powershell
-powershell -ExecutionPolicy Unrestricted "& \"%ps1FileFullPath%\" /e"
+powershell -ExecutionPolicy Bypass "& \"%ps1FileFullPath%\" /e"
